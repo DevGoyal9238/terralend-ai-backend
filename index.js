@@ -28,3 +28,6 @@ app.post("/evaluate-loan", async (req, res) => {
 app.listen(5000, () =>
   console.log("TerraLend backend running on port 5000")
 );
+
+console.log("Incoming loan request:", input);
+
