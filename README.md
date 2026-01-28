@@ -47,4 +47,6 @@ Loan Decision
 
 ---
 
+![Postman Test](screenshots/Postman.png)
+![Postman Test](screenshots/Postman2.png)
 
