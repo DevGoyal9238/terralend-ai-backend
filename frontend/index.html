@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TerraLend – Green Loan Evaluation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🌱 TerraLend Loan Evaluation</h1>
+
+  <div class="form">
+    <input type="number" id="revenue" placeholder="Annual Revenue (₹)" />
+    <input type="number" id="loan" placeholder="Loan Amount (₹)" />
+    <select id="greenActivity">
+      <option value="Solar">Solar</option>
+      <option value="EV">EV</option>
+      <option value="None">None</option>
+    </select>
+    <button onclick="evaluateLoan()">Evaluate Loan</button>
+  </div>
+
+  <pre id="result"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
