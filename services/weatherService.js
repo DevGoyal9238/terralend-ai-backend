@@ -17,3 +17,4 @@ async function getClimateRisk(city) {
 }
 
 module.exports = { getClimateRisk };
+const apiKey = process.env.OPENWEATHER_API_KEY;
